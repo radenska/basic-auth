@@ -10,7 +10,7 @@ const expect = require('chai').expect;
 const request = require('superagent');
 const server = require('../server.js');
 const url = 'http://localhost:3003';
-const awsMocks = require('./lib/aws-mocks.js');
+// const awsMocks = require('./lib/aws-mocks.js');
 
 const testUser = {
   username: 'testUser',
